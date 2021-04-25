@@ -5,7 +5,7 @@ A functional way to decode radar data into arrays
 Basically, the code snippet is "decode.lua" should be pasted in a start method somewhere.
 
 ## Performance
-The performance is okay, however, consider using (D.Mentia's method)[https://discord.com/channels/760240626942869546/760240628394623038/832291950886387762] if all you care about is actual ship data and maximal performance.
+The performance is okay, however, consider using [D.Mentia's method](https://discord.com/channels/760240626942869546/760240628394623038/832291950886387762) if all you care about is actual ship data and maximal performance.
 As for a metric, executing the function 170/s with approximately 170 constructs is the fastest you will be able to achieve before CPU overload. In most cases, decoding at such a rate is impossible and pointless since radar data doesn't update that fast.
 
 ## Array Structure
